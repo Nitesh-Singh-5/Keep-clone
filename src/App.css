@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: #f3f3f3;
+}
+nav {
+  line-height: 100px;
+  background-color: #f5ba13;
+  padding-left: 50px;
+  color: white;
+  box-shadow: 5px 3px 15px -5px rgba(0, 0, 0, 0.2);
+}
+.logo {
+  margin-right: 300px;
+  font-size: 2.6rem;
+}
+.main_note {
+  width: 500px;
+  margin: 20px auto;
+  padding: 15px 10px 5px 10px;
+}
+.saved_note {
+  width: 350px;
+  margin: 20px;
+  min-height: 50px;
+  padding: 15px 10px 25px 15px;
+  box-shadow: 3px 5px 15px -5px rgba(0, 0, 0, 0.2);
+}
+.my_notes h1 {
+  color: #34495e;
+}
+.my_notes p {
+  color: grey;
+}
+form {
+  min-height: 50px;
+  color: #ecf0f1;
+  display: block;
+  padding: 15px 10px 5px 10px;
+  box-shadow: 10px 10px 15px -1px rgba(0, 0, 0, 0.2);
+}
+input {
+  width: 100%;
+  line-height: 30px;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 1.5rem;
+  margin: 10px 0;
+  font-weight: bold;
+}
+textarea {
+  width: 70%;
+  line-height: 30px;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+Button {
+  float: right;
+}
+footer {
+  font-size: 1.2rem;
+  margin-top: 900px;
+  margin: 20px auto;
+}
+
+@media (max-width: 500px) {
+  .logo {
+    display: grid;
+    font-size: 2.4rem;
+  }
+  nav {
+    background-color: #f5ba13;
+    width: 100%;
+    position: fixed;
+  }
+  form {
+    margin-top: 100px;
+  }
+}
+@media (max-width: 412px) {
+  form {
+    width: 70%;
+  }
+}
+@media (max-width: 504px) {
+  form {
+    width: 90%;
+  }
+}
